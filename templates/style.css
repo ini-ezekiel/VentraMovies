@@ -4,14 +4,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+.venMovies {
   margin-left: 40px;
   font-size: 40px;
   font-weight: 800;
   color: white;
 }
 
-h1 span {
+.venMovies span {
   color: #067a06;
 }
 
