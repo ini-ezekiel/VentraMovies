@@ -35,5 +35,3 @@ const fetchMovies = async (searchTerm) => {
     movieContainer.innerHTML = `<p>There was an error fetching the movie data.</p>`;
   }
 };
-
-fetchMovies('action')
