@@ -24,7 +24,13 @@ const fetchMovies = async (searchTerm) => {
       data.Search.forEach(movie => {
         const movieDiv = document.createElement('div');
         movieDiv.classList.add('movie');
-        movieDiv.innerHTML = `<img src="${movie.Poster}" alt="${movie.Title}"> <div class="info"> <h2>${movie.Title}</h2> <p>${movie.Year}</p> </div>`;
+        movieDiv.innerHTML = `
+                    <img src="https://image.tmdb.org/t/p/w200${movie.poster_path}" alt="${movie.title}">
+                    <div class="info">
+                        <h2>${movie.title}</h2>
+                        <p>${movie.release_date?.split('-')[0]}</p>
+                    </div>
+                `;
         movieContainer.appendChild(movieDiv);
       });
     } else {
