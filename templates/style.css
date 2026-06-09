@@ -48,6 +48,7 @@ body {
   background: transparent;
   color: #ddd;
   font-size: 18px;
+  margin-bottom: 0;
 
 }
 
@@ -57,6 +58,7 @@ body {
   gap: 16px;
   padding: 20px;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .movie {
