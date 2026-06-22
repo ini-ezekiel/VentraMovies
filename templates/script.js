@@ -36,4 +36,4 @@ const fetchMovies = async (searchTerm) => {
   }
 };
 
-fetchMovies("marvel");
+fetchMovies("2026");
